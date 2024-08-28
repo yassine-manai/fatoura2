@@ -11,7 +11,7 @@ function Login({ setUser }) {
     e.preventDefault();
 
     try {
-      const response = await fetch('/path-to-your-login.php', {
+      const response = await fetch('http://localhost/php-invoice/login.php', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',

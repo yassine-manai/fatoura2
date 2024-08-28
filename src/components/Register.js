@@ -13,7 +13,7 @@ function Register({ onRegister }) {
     e.preventDefault();
 
     try {
-      const response = await fetch('/path-to-your-register.php', {
+      const response = await fetch('http://localhost/php-invoice/register.php', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
